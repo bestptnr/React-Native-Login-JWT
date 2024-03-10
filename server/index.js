@@ -16,7 +16,7 @@ app.use("/api/users", authRoute);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:zz12345@cluster0.wv76mfw.mongodb.net/auth_system?retryWrites=true&w=majority",
+    "mongodb+srv://",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
